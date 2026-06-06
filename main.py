@@ -3,6 +3,8 @@ import logging
 from pybit.unified_trading import HTTP
 from telegram import Bot
 from datetime import datetime
+from aiohttp import web
+import os
 
 # Настройка логирования
 logging.basicConfig(
@@ -181,5 +183,16 @@ async def run_bot():
         # Пауза между циклами сканирования (120 секунд для избежания rate limit)
         await asyncio.sleep(120)
 
+async def health(request):
+    return web.Response(text="OK")
+
+async def on_startup(app):
+    asyncio.create_task(run_bot())
+
+app = web.Application()
+app.router.add_get('/', health)
+app.on_startup.append(on_startup)
+
 if __name__ == "__main__":
-    asyncio.run(run_bot())
+    port = int(os.environ.get('PORT', 8080))
+    web.run_app(app, host='0.0.0.0', port=port)
