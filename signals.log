@@ -1,0 +1,46 @@
+2026-06-05 13:45:06,735 | ERROR | Too many visits. Exceeded the API Rate Limit. (ErrCode: 10006). Hit the API rate limit on https://api.bybit.com/v5/market/kline?category=linear&interval=60&limit=10&symbol=BTCUSDT. Sleeping then trying again.
+2026-06-05 13:45:06,737 | ERROR | API rate limit will reset at 13:45:08.737. Sleeping for 2000 ms. Retrying...
+2026-06-05 13:45:08,928 | ERROR | Too many visits. Exceeded the API Rate Limit. (ErrCode: 10006). Hit the API rate limit on https://api.bybit.com/v5/market/kline?category=linear&interval=60&limit=10&symbol=BTCUSDT. Sleeping then trying again.
+2026-06-05 13:45:08,930 | ERROR | API rate limit will reset at 13:45:10.930. Sleeping for 2000 ms. Retrying...
+2026-06-05 15:30:11,962 | INFO | SIGNAL | SOLUSDT | SHORT | Entry: 65.85 | TP: 66.76 | SL: 66.18
+2026-06-05 15:30:12,168 | INFO | HTTP Request: POST https://api.telegram.org/bot8740259151:AAFOdw_WX8eW-DE1Hoqav056Kt98BYUJ7XU/sendMessage "HTTP/1.1 200 OK"
+2026-06-05 15:30:14,951 | ERROR | Too many visits. Exceeded the API Rate Limit. (ErrCode: 10006). Hit the API rate limit on https://api.bybit.com/v5/market/kline?category=linear&interval=60&limit=10&symbol=AVAXUSDT. Sleeping then trying again.
+2026-06-05 15:30:14,951 | ERROR | API rate limit will reset at 15:30:16.951. Sleeping for 2000 ms. Retrying...
+2026-06-05 16:01:31,361 | INFO | SIGNAL | ARBUSDT | LONG | Entry: 0.0812 | TP: 0.08046 | SL: 0.08046
+2026-06-05 16:01:31,512 | INFO | HTTP Request: POST https://api.telegram.org/bot8740259151:AAFOdw_WX8eW-DE1Hoqav056Kt98BYUJ7XU/sendMessage "HTTP/1.1 200 OK"
+2026-06-05 17:40:53,947 | INFO | SIGNAL | ARBUSDT | SHORT | Entry: 0.08252 | TP: 0.0855 | SL: 0.08321
+2026-06-05 17:40:54,103 | INFO | HTTP Request: POST https://api.telegram.org/bot8740259151:AAFOdw_WX8eW-DE1Hoqav056Kt98BYUJ7XU/sendMessage "HTTP/1.1 200 OK"
+2026-06-05 17:40:56,737 | INFO | SIGNAL | AVAXUSDT | SHORT | Entry: 7.072 | TP: 7.22 | SL: 7.12
+2026-06-05 17:40:56,801 | INFO | HTTP Request: POST https://api.telegram.org/bot8740259151:AAFOdw_WX8eW-DE1Hoqav056Kt98BYUJ7XU/sendMessage "HTTP/1.1 200 OK"
+2026-06-05 18:46:44,813 | INFO | SIGNAL | SOLUSDT | LONG | Entry: 64.34 | TP: 63.88 | SL: 63.94
+2026-06-05 18:46:45,033 | INFO | HTTP Request: POST https://api.telegram.org/bot8740259151:AAFOdw_WX8eW-DE1Hoqav056Kt98BYUJ7XU/sendMessage "HTTP/1.1 200 OK"
+2026-06-05 19:01:36,338 | INFO | SIGNAL | SOLUSDT | LONG | Entry: 64.21 | TP: 63.71 | SL: 64.15
+2026-06-05 19:01:36,513 | INFO | HTTP Request: POST https://api.telegram.org/bot8740259151:AAFOdw_WX8eW-DE1Hoqav056Kt98BYUJ7XU/sendMessage "HTTP/1.1 200 OK"
+2026-06-05 19:10:08,108 | INFO | SIGNAL | AVAXUSDT | LONG | Entry: 6.848 | TP: 6.845 | SL: 6.827
+2026-06-05 19:10:08,298 | INFO | HTTP Request: POST https://api.telegram.org/bot8740259151:AAFOdw_WX8eW-DE1Hoqav056Kt98BYUJ7XU/sendMessage "HTTP/1.1 200 OK"
+2026-06-05 19:16:22,836 | INFO | SIGNAL | BTCUSDT | LONG | Entry: 60875.1 | TP: 60013.0 | SL: 59718.5
+2026-06-05 19:16:23,004 | INFO | HTTP Request: POST https://api.telegram.org/bot8740259151:AAFOdw_WX8eW-DE1Hoqav056Kt98BYUJ7XU/sendMessage "HTTP/1.1 200 OK"
+2026-06-05 20:00:05,466 | ERROR | Too many visits. Exceeded the API Rate Limit. (ErrCode: 10006). Hit the API rate limit on https://api.bybit.com/v5/market/kline?category=linear&interval=60&limit=10&symbol=BTCUSDT. Sleeping then trying again.
+2026-06-05 20:00:05,468 | ERROR | API rate limit will reset at 20:00:07.468. Sleeping for 2000 ms. Retrying...
+2026-06-05 20:00:08,355 | ERROR | Too many visits. Exceeded the API Rate Limit. (ErrCode: 10006). Hit the API rate limit on https://api.bybit.com/v5/market/kline?category=linear&interval=15&limit=10&symbol=BTCUSDT. Sleeping then trying again.
+2026-06-05 20:00:08,355 | ERROR | API rate limit will reset at 20:00:10.355. Sleeping for 2000 ms. Retrying...
+2026-06-05 20:00:15,583 | ERROR | Too many visits. Exceeded the API Rate Limit. (ErrCode: 10006). Hit the API rate limit on https://api.bybit.com/v5/market/kline?category=linear&interval=60&limit=10&symbol=AVAXUSDT. Sleeping then trying again.
+2026-06-05 20:00:15,583 | ERROR | API rate limit will reset at 20:00:17.583. Sleeping for 2000 ms. Retrying...
+2026-06-05 21:15:58,458 | INFO | SIGNAL | SOLUSDT | SHORT | Entry: 64.92 | TP: 63.13 | SL: 65.17
+2026-06-05 21:15:59,021 | INFO | HTTP Request: POST https://api.telegram.org/bot8740259151:AAFOdw_WX8eW-DE1Hoqav056Kt98BYUJ7XU/sendMessage "HTTP/1.1 200 OK"
+2026-06-05 21:16:02,814 | INFO | SIGNAL | AVAXUSDT | SHORT | Entry: 7.001 | TP: 6.784 | SL: 7.03
+2026-06-05 21:16:02,873 | INFO | HTTP Request: POST https://api.telegram.org/bot8740259151:AAFOdw_WX8eW-DE1Hoqav056Kt98BYUJ7XU/sendMessage "HTTP/1.1 200 OK"
+2026-06-05 21:45:11,132 | ERROR | Too many visits. Exceeded the API Rate Limit. (ErrCode: 10006). Hit the API rate limit on https://api.bybit.com/v5/market/kline?category=linear&interval=60&limit=10&symbol=AVAXUSDT. Sleeping then trying again.
+2026-06-05 21:45:11,132 | ERROR | API rate limit will reset at 21:45:13.132. Sleeping for 2000 ms. Retrying...
+2026-06-05 23:00:04,747 | ERROR | Too many visits. Exceeded the API Rate Limit. (ErrCode: 10006). Hit the API rate limit on https://api.bybit.com/v5/market/kline?category=linear&interval=60&limit=10&symbol=BTCUSDT. Sleeping then trying again.
+2026-06-05 23:00:04,749 | ERROR | API rate limit will reset at 23:00:06.747. Sleeping for 1998 ms. Retrying...
+2026-06-05 23:00:10,711 | ERROR | Too many visits. Exceeded the API Rate Limit. (ErrCode: 10006). Hit the API rate limit on https://api.bybit.com/v5/market/kline?category=linear&interval=60&limit=10&symbol=ARBUSDT. Sleeping then trying again.
+2026-06-05 23:00:10,711 | ERROR | API rate limit will reset at 23:00:12.711. Sleeping for 2000 ms. Retrying...
+2026-06-06 10:41:04,947 | INFO | SIGNAL | BTCUSDT | SHORT | Entry: 60980.0 | TP: 59578.7 | SL: 61028.6
+2026-06-06 10:41:05,120 | INFO | HTTP Request: POST https://api.telegram.org/bot8740259151:AAFOdw_WX8eW-DE1Hoqav056Kt98BYUJ7XU/sendMessage "HTTP/1.1 200 OK"
+2026-06-06 11:26:50,837 | INFO | SIGNAL | SOLUSDT | LONG | Entry: 62.91 | TP: 63.32 | SL: 62.76
+2026-06-06 11:26:50,974 | INFO | HTTP Request: POST https://api.telegram.org/bot8740259151:AAFOdw_WX8eW-DE1Hoqav056Kt98BYUJ7XU/sendMessage "HTTP/1.1 200 OK"
+2026-06-06 12:45:07,155 | INFO | SIGNAL | SOLUSDT | SHORT | Entry: 63.17 | TP: 62.03 | SL: 63.44
+2026-06-06 12:45:07,307 | INFO | HTTP Request: POST https://api.telegram.org/bot8740259151:AAFOdw_WX8eW-DE1Hoqav056Kt98BYUJ7XU/sendMessage "HTTP/1.1 200 OK"
+2026-06-06 13:45:15,273 | ERROR | Too many visits. Exceeded the API Rate Limit. (ErrCode: 10006). Hit the API rate limit on https://api.bybit.com/v5/market/kline?category=linear&interval=15&limit=10&symbol=SOLUSDT. Sleeping then trying again.
+2026-06-06 13:45:15,273 | ERROR | API rate limit will reset at 13:45:17.273. Sleeping for 2000 ms. Retrying...
