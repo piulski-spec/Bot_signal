@@ -3,7 +3,7 @@ import logging
 from pybit.unified_trading import HTTP
 from telegram import Bot
 from datetime import datetime
-from aiohttp import web
+from flask import Flask
 import os
 
 # Настройка логирования
@@ -183,16 +183,18 @@ async def run_bot():
         # Пауза между циклами сканирования (120 секунд для избежания rate limit)
         await asyncio.sleep(120)
 
-async def health(request):
-    return web.Response(text="OK")
+app = Flask(__name__)
 
-async def on_startup(app):
-    asyncio.create_task(run_bot())
+@app.route('/')
+def health():
+    return 'OK'
 
-app = web.Application()
-app.router.add_get('/', health)
-app.on_startup.append(on_startup)
+def run_flask():
+    port = int(os.environ.get('PORT', 8080))
+    app.run(host='0.0.0.0', port=port, thread=True)
 
 if __name__ == "__main__":
-    port = int(os.environ.get('PORT', 8080))
-    web.run_app(app, host='0.0.0.0', port=port)
+    # Запускаем Flask в отдельном потоке и бота в основном
+    from threading import Thread
+    Thread(target=run_flask, daemon=True).start()
+    asyncio.run(run_bot())
